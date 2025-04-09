@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="exmaple suite 1" verbose="1">
+    <test name="Regresion suite 1">
+        <packages>
+            <package name="fpoly">
+        </packages>
+    </test>
+</suite> 
+

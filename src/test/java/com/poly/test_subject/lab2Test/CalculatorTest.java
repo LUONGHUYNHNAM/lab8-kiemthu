@@ -2,7 +2,6 @@ package com.poly.test_subject.lab2Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import org.junit.jupiter.api.Test;
 
 import com.poly.test_subject.lab2.Calculator;
@@ -31,8 +30,4 @@ public class CalculatorTest {
         assertNotEquals(5, cal.substract(10, 4));
     }
 
-    @Test
-    void divideTest() {
-        assertNull(0);
-    }
 }

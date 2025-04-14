@@ -12,6 +12,11 @@ public class CalculatorL8Test {
     }
 
     @Test
+    public void testAdd2() {
+        Assert.assertEquals(calc.add(2, 3), 5);
+    }
+
+    @Test
     public void testDivideByZero() {
         try {
             calc.divide(4, 0);
@@ -20,4 +25,6 @@ public class CalculatorL8Test {
             Assert.assertTrue(true);
         }
     }
+
+    // push request 
 }
